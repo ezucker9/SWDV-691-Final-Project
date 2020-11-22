@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'> -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="pomodoro.css">
+    <link rel='stylesheet ' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <title>Pomo-Do-ro To-Do List</title>
+</head>
+<body class="color">
+
+
+    <div class="box container">
+
+        <div>
+            <img src="tomato.png" alt="tomato" width="100px" height="100px">
+
+        </div>
+
+        <!-- <form action="POST"> -->
+
+        <div class="task">
+            
+            <h2> To use the list; place your tasks in the fields and set the timer for 25 minutes (Focus Period). Once the timer goes off; set it for a 5 minute break (Rest Period). After 4 small breaks, set the timer for a 35 minute break. Repeat until tasks are completed. </h2>
+
+            <form action="/action_page.php">
+              <label for="Task One">Task One</label>
+              <input type="text" id="task1" name="Task One"><br><br>
+              <label for="Task Two">Task Two</label>
+              <input type="text" id="task2" name="Task Two"><br><br>
+              <label for="Task Three">Task Three</label>
+              <input type="text" id="task3" name="Task Three"><br><br>
+              <label for="Task Four">Task Four</label>
+              <input type="text" id="task4" name="Task Four"><br><br>
+              <label for="Task Five">Task Five</label>
+              <input type="text" id="task5" name="Task Five"><br><br>
+            </form>
+            
+
+        </div>
+        
+       
+        
+        <div>
+
+            
+            <img src="tomato.png" alt="tomato"  width="100px" height="100px">
+
+
+        </div>
+
+    </div>
+    <div class="container text-center">
+        <!-- <header class="page-header">
+            <h1>Pomodoro Clock</h1>
+        </header> -->
+
+            <div id="custom" class="custom">
+                <div id="session" class="session inlineb">
+                    <!-- <p id="session-head">Session</p> -->
+                    <button type="button" id="up-session" class="btn btn-default inlineb" aria-label="Increase Session Time"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                        <p id="session-time" class="inlineb">25</p>
+                    <button  type="button" id="down-session" class="btn btn-default inlineb" aria-label="Decrease Session Time"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+            </div>
+            
+
+    
+        
+
+		<div id="timer-count" class="timer-count">
+			<span id="minutes">25</span>:<span id="seconds">00</span>
+        </div>
+
+        <div id="controls" class="controls">
+            <button type="button" id="start" title="Start Timer" class="btn btn-default btn-lg" aria-label="Start Timer"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></button>
+            <button type="button" id="reset" title="Reset Timer" class="btn btn-default btn-lg" aria-label="Reset Timer"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
+            <button type="button" id="mute" title="Mute Alarm" class="btn btn-default btn-lg" aria-label="Mute Alarm"><span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span></button>
+            <button type="button" id="loop" title="Turn Off Loop" class="btn btn-default btn-lg" aria-label="Turn Off Loop"><span class=" glyphicon glyphicon-repeat" aria-hidden="true"></span></button>
+        </div>
+
+        <audio id="tone" src="assets/audio/electronic_chime.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="assets/js/index.js"></script>
+    <div class="links">
+
+        <a target="_blank" href="https://www.samhsa.gov/find-help/national-helpline%22%3E">I feel overwhelmed, and I don't know what to do!</a>
+        
+        <a target="_blank" href="https://uhs.umich.edu/tenthings">Mental Health Tips for before you feel overwhelmed.</a>
+
+    </div>
+
+   
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="index.js"></script>
+
+
+    
+</body>
+</html>
